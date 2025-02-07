@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font-Awesome-CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style/styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello I'm</h3>
+            <h1>Rohini</h1>
+            <!-- <h3>And I'm a <span>Backend Developer</span></h3> -->
+            
+             <p style="line-height: 1.5;">I'm a Software Developer specializing in JavaScript, Node.js, Express.js, MySQL and MongoDB. I build scalable and efficient solutions with a passion for solving complex problems.</p>
+            <div class="social-media">
+                
+                <a href="https://github.com/sampang-rai" target="_blank"><i class="fa-brands fa-github"></i></a>                
+                <a href="https://www.linkedin.com/in/rohini-n-k-rai/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="RaiCV.pdf" target="_blank" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/img01.jpeg" alt="">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/img01.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Software Developer</h3>            
+             <p style="line-height: 1.5;">I’m a software developer currently pursuing an MSc in Software Engineering at Kingston University. With hands-on experience in backend development, I have a strong foundation in building RESTful APIs and designing efficient systems. I’m constantly looking for new challenges to grow my skills and contribute to impactful projects. My focus is on delivering high-quality backend solutions and working with dynamic teams to drive innovation.</p>
+            <!-- <a href="#" class="btn"> Read More</a> -->
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <!-- <h2 class="heading">My <span>Services</span></h2> -->
+        <h2 class="heading">Skills</h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p style="line-height: 1.5;">Experienced in building scalable backend systems using Node.js and Express, developing RESTful APIs, and managing databases like MySQL and MongoDB.</p>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-brands fa-figma"></i>
+                <h3>Figma Design</h3>
+                <p style="line-height: 1.5;">Skilled in creating user-friendly UI/UX designs, wireframes, and prototypes using Figma, focusing on responsive and visually appealing interfaces</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-code-fork"></i>                
+                <h3>Version Control</h3>
+                <p style="line-height: 1.5;">Proficient in Git and GitHub for efficient code management, collaboration, branching, merging, and maintaining project version history.</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/po1.avif" alt="">
+                
+                <div class="portfolio-layer">
+                    <h4>EHR System</h4>
+                    <p>Built a secure, cloud-based Electronic Health Record (EHR) System for managing patient records and appointments, enhancing healthcare efficiency and compliance with standards like GDPR and HIPAA.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/po2.avif" alt="">
+                <div class="portfolio-layer">
+                    <h4>IMS</h4>
+                    <p>Developed a secure, cloud-based Image Management System (IMS) for ABC Healthcare Group, improving scalability, operational efficiency, and compliance with standards like GDPR and HIPAA. The system manages images, accounts, and workflows, transitioning from a legacy LAN-based setup to a modern cloud architecture.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/po1.avif" alt="">
+                <div class="portfolio-layer">
+                    <h4>Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi harum sapiente distinctio dolores, necessitatibus dignissimos possimus architecto? Fugit quia molestias nesciunt repellendus culpa, laborum obcaecati voluptas exercitationem inventore reprehenderit nostrum.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <iframe src="https://forms.gle/aQcfehpKQ3pFAREx6" width="100%" height="600px" frameborder="0" marginheight="0" marginwidth="0">
+            Loading…
+        </iframe>
+
+        <!-- <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form> -->
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <!-- <p>Copyright &copy; 2025 by @rai | All Rights Reserved.</p> -->
+             <p>Portfolio | 2025 | @rai</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"> <i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
